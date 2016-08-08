@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87EC6EDA1D582DC900D2E4AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC6ED91D582DC900D2E4AF /* main.m */; };
+		87EC6EDD1D582DC900D2E4AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC6EDC1D582DC900D2E4AF /* AppDelegate.m */; };
+		87EC6EE01D582DC900D2E4AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC6EDF1D582DC900D2E4AF /* ViewController.m */; };
+		87EC6EE31D582DC900D2E4AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87EC6EE11D582DC900D2E4AF /* Main.storyboard */; };
+		87EC6EE61D582DC900D2E4AF /* ScrollToGradientNavColor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87EC6EE41D582DC900D2E4AF /* ScrollToGradientNavColor.xcdatamodeld */; };
+		87EC6EE81D582DC900D2E4AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87EC6EE71D582DC900D2E4AF /* Assets.xcassets */; };
+		87EC6EEB1D582DC900D2E4AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87EC6EE91D582DC900D2E4AF /* LaunchScreen.storyboard */; };
+		87EC6EF61D582DC900D2E4AF /* ScrollToGradientNavColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC6EF51D582DC900D2E4AF /* ScrollToGradientNavColorTests.m */; };
+		87EC6F011D582DC900D2E4AF /* ScrollToGradientNavColorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EC6F001D582DC900D2E4AF /* ScrollToGradientNavColorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87EC6EF21D582DC900D2E4AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87EC6ECD1D582DC900D2E4AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87EC6ED41D582DC900D2E4AF;
+			remoteInfo = ScrollToGradientNavColor;
+		};
+		87EC6EFD1D582DC900D2E4AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87EC6ECD1D582DC900D2E4AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87EC6ED41D582DC900D2E4AF;
+			remoteInfo = ScrollToGradientNavColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87EC6ED51D582DC900D2E4AF /* ScrollToGradientNavColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollToGradientNavColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87EC6ED91D582DC900D2E4AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87EC6EDB1D582DC900D2E4AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87EC6EDC1D582DC900D2E4AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87EC6EDE1D582DC900D2E4AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87EC6EDF1D582DC900D2E4AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87EC6EE21D582DC900D2E4AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87EC6EE51D582DC900D2E4AF /* ScrollToGradientNavColor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScrollToGradientNavColor.xcdatamodel; sourceTree = "<group>"; };
+		87EC6EE71D582DC900D2E4AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87EC6EEA1D582DC900D2E4AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87EC6EEC1D582DC900D2E4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87EC6EF11D582DC900D2E4AF /* ScrollToGradientNavColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollToGradientNavColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87EC6EF51D582DC900D2E4AF /* ScrollToGradientNavColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollToGradientNavColorTests.m; sourceTree = "<group>"; };
+		87EC6EF71D582DC900D2E4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87EC6EFC1D582DC900D2E4AF /* ScrollToGradientNavColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollToGradientNavColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87EC6F001D582DC900D2E4AF /* ScrollToGradientNavColorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollToGradientNavColorUITests.m; sourceTree = "<group>"; };
+		87EC6F021D582DC900D2E4AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87EC6ED21D582DC900D2E4AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87EC6EEE1D582DC900D2E4AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87EC6EF91D582DC900D2E4AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87EC6ECC1D582DC900D2E4AF = {
+			isa = PBXGroup;
+			children = (
+				87EC6ED71D582DC900D2E4AF /* ScrollToGradientNavColor */,
+				87EC6EF41D582DC900D2E4AF /* ScrollToGradientNavColorTests */,
+				87EC6EFF1D582DC900D2E4AF /* ScrollToGradientNavColorUITests */,
+				87EC6ED61D582DC900D2E4AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87EC6ED61D582DC900D2E4AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87EC6ED51D582DC900D2E4AF /* ScrollToGradientNavColor.app */,
+				87EC6EF11D582DC900D2E4AF /* ScrollToGradientNavColorTests.xctest */,
+				87EC6EFC1D582DC900D2E4AF /* ScrollToGradientNavColorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87EC6ED71D582DC900D2E4AF /* ScrollToGradientNavColor */ = {
+			isa = PBXGroup;
+			children = (
+				87EC6EDB1D582DC900D2E4AF /* AppDelegate.h */,
+				87EC6EDC1D582DC900D2E4AF /* AppDelegate.m */,
+				87EC6EDE1D582DC900D2E4AF /* ViewController.h */,
+				87EC6EDF1D582DC900D2E4AF /* ViewController.m */,
+				87EC6EE11D582DC900D2E4AF /* Main.storyboard */,
+				87EC6EE71D582DC900D2E4AF /* Assets.xcassets */,
+				87EC6EE91D582DC900D2E4AF /* LaunchScreen.storyboard */,
+				87EC6EEC1D582DC900D2E4AF /* Info.plist */,
+				87EC6EE41D582DC900D2E4AF /* ScrollToGradientNavColor.xcdatamodeld */,
+				87EC6ED81D582DC900D2E4AF /* Supporting Files */,
+			);
+			path = ScrollToGradientNavColor;
+			sourceTree = "<group>";
+		};
+		87EC6ED81D582DC900D2E4AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87EC6ED91D582DC900D2E4AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87EC6EF41D582DC900D2E4AF /* ScrollToGradientNavColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				87EC6EF51D582DC900D2E4AF /* ScrollToGradientNavColorTests.m */,
+				87EC6EF71D582DC900D2E4AF /* Info.plist */,
+			);
+			path = ScrollToGradientNavColorTests;
+			sourceTree = "<group>";
+		};
+		87EC6EFF1D582DC900D2E4AF /* ScrollToGradientNavColorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87EC6F001D582DC900D2E4AF /* ScrollToGradientNavColorUITests.m */,
+				87EC6F021D582DC900D2E4AF /* Info.plist */,
+			);
+			path = ScrollToGradientNavColorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87EC6ED41D582DC900D2E4AF /* ScrollToGradientNavColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87EC6F051D582DC900D2E4AF /* Build configuration list for PBXNativeTarget "ScrollToGradientNavColor" */;
+			buildPhases = (
+				87EC6ED11D582DC900D2E4AF /* Sources */,
+				87EC6ED21D582DC900D2E4AF /* Frameworks */,
+				87EC6ED31D582DC900D2E4AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollToGradientNavColor;
+			productName = ScrollToGradientNavColor;
+			productReference = 87EC6ED51D582DC900D2E4AF /* ScrollToGradientNavColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87EC6EF01D582DC900D2E4AF /* ScrollToGradientNavColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87EC6F081D582DC900D2E4AF /* Build configuration list for PBXNativeTarget "ScrollToGradientNavColorTests" */;
+			buildPhases = (
+				87EC6EED1D582DC900D2E4AF /* Sources */,
+				87EC6EEE1D582DC900D2E4AF /* Frameworks */,
+				87EC6EEF1D582DC900D2E4AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87EC6EF31D582DC900D2E4AF /* PBXTargetDependency */,
+			);
+			name = ScrollToGradientNavColorTests;
+			productName = ScrollToGradientNavColorTests;
+			productReference = 87EC6EF11D582DC900D2E4AF /* ScrollToGradientNavColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87EC6EFB1D582DC900D2E4AF /* ScrollToGradientNavColorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87EC6F0B1D582DC900D2E4AF /* Build configuration list for PBXNativeTarget "ScrollToGradientNavColorUITests" */;
+			buildPhases = (
+				87EC6EF81D582DC900D2E4AF /* Sources */,
+				87EC6EF91D582DC900D2E4AF /* Frameworks */,
+				87EC6EFA1D582DC900D2E4AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87EC6EFE1D582DC900D2E4AF /* PBXTargetDependency */,
+			);
+			name = ScrollToGradientNavColorUITests;
+			productName = ScrollToGradientNavColorUITests;
+			productReference = 87EC6EFC1D582DC900D2E4AF /* ScrollToGradientNavColorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87EC6ECD1D582DC900D2E4AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = scrum_snail;
+				TargetAttributes = {
+					87EC6ED41D582DC900D2E4AF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					87EC6EF01D582DC900D2E4AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 87EC6ED41D582DC900D2E4AF;
+					};
+					87EC6EFB1D582DC900D2E4AF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 87EC6ED41D582DC900D2E4AF;
+					};
+				};
+			};
+			buildConfigurationList = 87EC6ED01D582DC900D2E4AF /* Build configuration list for PBXProject "ScrollToGradientNavColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87EC6ECC1D582DC900D2E4AF;
+			productRefGroup = 87EC6ED61D582DC900D2E4AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87EC6ED41D582DC900D2E4AF /* ScrollToGradientNavColor */,
+				87EC6EF01D582DC900D2E4AF /* ScrollToGradientNavColorTests */,
+				87EC6EFB1D582DC900D2E4AF /* ScrollToGradientNavColorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87EC6ED31D582DC900D2E4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EC6EEB1D582DC900D2E4AF /* LaunchScreen.storyboard in Resources */,
+				87EC6EE81D582DC900D2E4AF /* Assets.xcassets in Resources */,
+				87EC6EE31D582DC900D2E4AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87EC6EEF1D582DC900D2E4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87EC6EFA1D582DC900D2E4AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87EC6ED11D582DC900D2E4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EC6EE01D582DC900D2E4AF /* ViewController.m in Sources */,
+				87EC6EE61D582DC900D2E4AF /* ScrollToGradientNavColor.xcdatamodeld in Sources */,
+				87EC6EDD1D582DC900D2E4AF /* AppDelegate.m in Sources */,
+				87EC6EDA1D582DC900D2E4AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87EC6EED1D582DC900D2E4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EC6EF61D582DC900D2E4AF /* ScrollToGradientNavColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87EC6EF81D582DC900D2E4AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87EC6F011D582DC900D2E4AF /* ScrollToGradientNavColorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87EC6EF31D582DC900D2E4AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87EC6ED41D582DC900D2E4AF /* ScrollToGradientNavColor */;
+			targetProxy = 87EC6EF21D582DC900D2E4AF /* PBXContainerItemProxy */;
+		};
+		87EC6EFE1D582DC900D2E4AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87EC6ED41D582DC900D2E4AF /* ScrollToGradientNavColor */;
+			targetProxy = 87EC6EFD1D582DC900D2E4AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87EC6EE11D582DC900D2E4AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87EC6EE21D582DC900D2E4AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87EC6EE91D582DC900D2E4AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87EC6EEA1D582DC900D2E4AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87EC6F031D582DC900D2E4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87EC6F041D582DC900D2E4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87EC6F061D582DC900D2E4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrollToGradientNavColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.ScrollToGradientNavColor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87EC6F071D582DC900D2E4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScrollToGradientNavColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.ScrollToGradientNavColor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		87EC6F091D582DC900D2E4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrollToGradientNavColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.ScrollToGradientNavColorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollToGradientNavColor.app/ScrollToGradientNavColor";
+			};
+			name = Debug;
+		};
+		87EC6F0A1D582DC900D2E4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScrollToGradientNavColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.ScrollToGradientNavColorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollToGradientNavColor.app/ScrollToGradientNavColor";
+			};
+			name = Release;
+		};
+		87EC6F0C1D582DC900D2E4AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScrollToGradientNavColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.ScrollToGradientNavColorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrollToGradientNavColor;
+			};
+			name = Debug;
+		};
+		87EC6F0D1D582DC900D2E4AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ScrollToGradientNavColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.scrum-snail.ScrollToGradientNavColorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScrollToGradientNavColor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87EC6ED01D582DC900D2E4AF /* Build configuration list for PBXProject "ScrollToGradientNavColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EC6F031D582DC900D2E4AF /* Debug */,
+				87EC6F041D582DC900D2E4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87EC6F051D582DC900D2E4AF /* Build configuration list for PBXNativeTarget "ScrollToGradientNavColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EC6F061D582DC900D2E4AF /* Debug */,
+				87EC6F071D582DC900D2E4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87EC6F081D582DC900D2E4AF /* Build configuration list for PBXNativeTarget "ScrollToGradientNavColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EC6F091D582DC900D2E4AF /* Debug */,
+				87EC6F0A1D582DC900D2E4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87EC6F0B1D582DC900D2E4AF /* Build configuration list for PBXNativeTarget "ScrollToGradientNavColorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87EC6F0C1D582DC900D2E4AF /* Debug */,
+				87EC6F0D1D582DC900D2E4AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87EC6EE41D582DC900D2E4AF /* ScrollToGradientNavColor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87EC6EE51D582DC900D2E4AF /* ScrollToGradientNavColor.xcdatamodel */,
+			);
+			currentVersion = 87EC6EE51D582DC900D2E4AF /* ScrollToGradientNavColor.xcdatamodel */;
+			path = ScrollToGradientNavColor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 87EC6ECD1D582DC900D2E4AF /* Project object */;
+}
